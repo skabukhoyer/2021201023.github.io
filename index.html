@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AK's portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body onload="startTime()">
+    <div id="sticky">heloo</div>
+    <header>
+        <div class="logo">
+            <!--<img src="images/photo.jpg" alt="myPhoto">-->
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">Technical Skills</a></li>
+                <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Photos</a></li>
+                <li class="nav__item"><a href="#footer__id" class="nav__link">Contact Me</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <!--Introduction-->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Sk Abukhoyer</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Welcome to my Web Page!</p>
+        <img src="images/photo.jpg" alt="MyPhoto" class="intro__img">
+    </section>
+
+    <!--About Me-->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">About Me</h2>
+        <p class="section__subtitle section__subtitle--about">post graduate student at IIITH</p>
+        <div class="about-me__body">
+            <p>I am 23 years old, living at Birbhum in West Bengal. I have completed My schooling  from State
+                Board in 2016 and after that getting prepared for JEE ,then I took admission for B.tech in CSE
+                from a state government college in 2017. Now I am currently pursuing my M.tech at IIITH and have keen 
+                interest in competitive programming.
+                My hobbies are reading novels,playing cricket, watching movies/series, learning new things 
+                which can help in my profession.
+            </p>
+        </div>
+        <a href="https://drive.google.com/file/d/1oW3x8IuclYjlhDAZ-NgGTPU9lHpwTzEf/view?usp=sharing" class="resume">My Resume</a>
+    </section>
+
+    <!--Education-->
+    <section class="my-education" id="education">
+        <h2 class="section__title section__title--education">Education</h2>
+        <p>   </p>
+        <div class="education">
+            <div class="edu">
+                <h3>MTech in CSE</h3>
+                <p>IIITH :2021-2023</p>
+                <a href="https://iiit.ac.in" class="edu__item">
+                    <img src="images/iiith1.jpg" alt="iiit image" class="edu__img">
+                </a>
+            </div>
+            <div class="edu">
+                <h3>BTech in CSE</h3>
+                <p>CGEC :2017-2021</p>
+                <a href="http://cgec.org.in/" class="edu__item">
+                    <img src="images/cgec.jpg" alt="cgec image" class="edu__img">
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+    <!--skills-->
+    <section class="my-skills" id="skills">
+        <h2 class="section__title">Technical Skills</h2>
+        <p class="section__subtitle"></p>
+        <div class="portfolio">
+
+            <a href="#" class="portfolio__item">
+                <img src="images/c.jpg" alt="language" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="images/cpp.png" alt="language" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="images/java.jpg" alt="language" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="images/python.png" alt="language" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="images/sql.png" alt="language" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="images/bash.jpg" alt="language" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="images/html.png" alt="language" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="images/css.png" alt="language" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="images/javascript.png" alt="language" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+    <!--Projects-->
+    <section class="my-projects" id="projects">
+        <h2 class="section__title section__title--project">My Academic Projects</h2>
+        <p class="section__subtitle section__subtitle--project">Hostel Management System</p>
+        <div class="project-body">
+           <!-- <h3>Hostel Management System</h3>-->
+            <p>We were four student in a group for completing this project 
+                as an academic activity which was based on marks in the 
+                semester. We have created some web pages which are mainly used 
+                in a hostel like admin page , user page and some internal pages
+                for HostelManagement System using JAVA APPLET.
+                For implementing this project, we have used NETBEANS 
+                IDE 8.2 version and  wampserver for database Management system.
+
+            </p>
+        </div>
+    </section>
+
+    <!--Contact-->
+    <footer class="footer" id="footer__id">
+        <h2 class="footer__link">Contacts</h2>
+        <br>
+        </br>
+        <a href="#">skabukhoyer@gmail.com</a>
+        <ul class="social__list">
+            <li class="social__list__item">
+            <a href="https://www.linkedin.com/in/sk-abukhoyer-690a581a4/" class="fa fa-linkedin"> </a>
+            </li>
+            <li  class="social__list__item">
+            <a href="https://github.com/skabukhoyer" class="fa fa-github"></a>
+            </li>
+            <li  class="social__list__item">
+            <a href="#" class="fa fa-instagram"> </a>
+            </li>
+            <li  class="social__list__item">
+            <a href="#" class="fa fa-google"> </a>
+            </li>
+            <li  class="social__list__item">
+            <a href="#" class="fa fa-skype"> </a></li></ul></Body> </Html>
+        </ul>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
