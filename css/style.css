@@ -34,6 +34,11 @@ html{
 
 body{
     background: var(--clr-light);
+    background-image: url("https://i.pinimg.com/736x/a0/d8/10/a0d810474c309edd22329b760280a303.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: var(--clr-dark);
     margin: 0;
     font-family: var(--ff-primary);
@@ -76,7 +81,7 @@ header{
     text-decoration: none;
 }
 .nav__link:hover{
-    color: var(--clr-ascent);
+    color:var(--clr-ascent);
 }
 .nav-toggle{
     padding: .25em;
@@ -112,7 +117,7 @@ header{
 .hamburger,
 .hamburger::before,
 .hamburger::after{
-    background: var(--clr-ascent);
+    background: red;
     width: 2em;
     height: 3px;
     border-radius: 1em;
@@ -351,4 +356,11 @@ h3{font-size: var(--fs-h3);}
     padding: 5px;
     background-color: #cae8ca;
     border: 2px solid #4CAF50;
+  }
+  .about-me,
+  .my-education,
+  .my-projects,
+  .my-skills,
+  .footer{
+      display: none;
   }
